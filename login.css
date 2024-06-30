@@ -1,0 +1,66 @@
+body {
+    background-image: url("feu_image1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: left; /* Align the form to the left */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 10px; /* Adjust the margin-left value as needed */
+}
+
+label {
+    color: white; /* Set the text color of the labels to white */
+    font-weight: bold; /* Make the label text bold */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    color: white; /* Set the text color of the input fields to white */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for input fields */
+    border: 1px solid white; /* Add a white border to input fields */
+}
+
+.form-control::placeholder {
+    color: #cccccc; /* Light gray placeholder text */
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: transparent; /* Make the button background transparent */
+    border: 1px solid white; /* Add a white border to the button */
+    color: white; /* Set the text color to white */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.btn-primary:hover {
+    background-color: green; /* Change background color to green on hover */
+    color: white; /* Ensure text color remains white on hover */
+}
